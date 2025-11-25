@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Który nagłówek wygląda najbardziej manipulacyjnie?",
+    "answers": {
+      "A": "Eksperci: ceny energii mogą wzrosnąć w przyszłym roku",
+      "B": "Rząd ZNISZCZY twoje oszczędności! Szykuj się na DRAMAT!",
+      "C": "Prognozy ekonomiczne wskazują na możliwe zmiany cen"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Które źródło informacji jest najbardziej wiarygodne?",
+    "answers": {
+      "A": "Krótki filmik z TikToka oparty na opiniach",
+      "B": "Anonimowy post na forum bez źródeł",
+      "C": "Artykuł z podanymi źródłami i linkami do badań"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Co jest typowym sygnałem manipulacji?",
+    "answers": {
+      "A": "Neutralny ton i wyważone argumenty",
+      "B": "Precyzyjne dane i statystyki",
+      "C": "Używanie strachu, krzyku i dużych liter"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Widzisz kontrowersyjne zdjęcie polityka. Co robisz jako pierwsze?",
+    "answers": {
+      "A": "Udostępniam znajomym",
+      "B": "Sprawdzam, czy zdjęcie nie jest AI albo wyrwane z kontekstu",
+      "C": "Zostawiam komentarz, że to na pewno prawda"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Który wykres może być zmanipulowany?",
+    "answers": {
+      "A": "Wykres z opisanymi źródłami i pełną skalą",
+      "B": "Wykres z obciętą osią Y, który dramatyzuje dane",
+      "C": "Wykres przedstawiający dane z oficjalnych raportów"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Jaki jest częsty cel fake newsów?",
+    "answers": {
+      "A": "Neutralna edukacja odbiorców",
+      "B": "Wzbudzenie emocji, chaosu lub podziałów",
+      "C": "Obiektywne przedstawienie faktów"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Co zwiększa wiarygodność informacji?",
+    "answers": {
+      "A": "Agresywny ton i emocjonalny język",
+      "B": "Brak daty i autora",
+      "C": "Obecność źródeł, linków i badań naukowych"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Co powinno wzbudzić twoją czujność?",
+    "answers": {
+      "A": "Artykuł z naukowymi źródłami",
+      "B": "Artykuł podpisany przez eksperta",
+      "C": "Artykuł bez daty publikacji"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Które zachowanie pomaga unikać dezinformacji?",
+    "answers": {
+      "A": "Udostępnianie emocjonalnych treści",
+      "B": "Weryfikowanie informacji w wielu źródłach",
+      "C": "Czytanie tylko nagłówków"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Co może być przykładem manipulacji obrazem?",
+    "answers": {
+      "A": "Naturalne zdjęcie z wydarzenia",
+      "B": "Zdjęcie z opisanym miejscem i datą",
+      "C": "Obraz wygenerowany przez AI przedstawiony jako prawdziwy"
+    },
+    "correct": "C"
+  }
+]

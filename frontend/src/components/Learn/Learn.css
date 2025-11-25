@@ -1,0 +1,121 @@
+.learn {
+  background-color: #e6f0ff;
+  padding: 80px 20px 120px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0b0f17;
+}
+
+.learn-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.learn-eyebrow {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--blue-700);
+  margin-bottom: 16px;
+  user-select: none;
+}
+
+.learn-title {
+  font-size: 44px;
+  font-weight: 900;
+  color: #1f6feb;
+  margin-bottom: 24px;
+  line-height: 1.1;
+  user-select: none;
+}
+
+.learn-title .accent {
+  color: #0948ff;
+}
+
+.learn-lead {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 60px;
+  line-height: 1.5;
+  color: #2c2f3a;
+  user-select: none;
+}
+
+.learn-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.learn-card {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(31, 110, 235, 0.12);
+  padding: 28px 32px;
+  text-align: left;
+  cursor: default;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  outline-offset: 4px;
+  user-select: none;
+}
+
+.learn-card:focus,
+.learn-card:hover {
+  box-shadow: 0 20px 45px rgba(31, 110, 235, 0.25);
+  transform: translateY(-8px);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #1f6feb;
+  user-select: none;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0948ff;
+  margin-bottom: 14px;
+}
+
+.card-text {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #2c2f3a;
+  user-select: none;
+}
+
+@media (max-width: 720px) {
+  .learn-inner {
+    padding: 0 10px;
+  }
+
+  .learn-title {
+    font-size: 34px;
+  }
+
+  .learn-lead {
+    font-size: 18px;
+    margin-bottom: 48px;
+  }
+
+  .learn-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .learn-card {
+    padding: 24px 28px;
+  }
+
+  .card-title {
+    font-size: 22px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+}

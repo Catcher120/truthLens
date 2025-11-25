@@ -1,0 +1,55 @@
+.how-wrapper {
+  width: 100%;
+  padding: 6vw 8vw;
+  background: #f7f9fc;
+  border-radius: var(--radius-card);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2vw;
+}
+
+.how-top-label {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: #6b6b6b;
+  margin-bottom: 1vw;
+}
+
+.how-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #0a0a0a;
+  max-width: 900px;
+}
+.how-title span {
+  color: #0a4cff;
+}
+
+.how-desc {
+  max-width: 850px;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.how-list {
+  list-style: none;
+  padding: 0;
+  max-width: 900px;
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: #333;
+}
+
+.how-list li {
+  margin-bottom: 1.2vw;
+  padding-left: 0.2vw;
+  display: flex;
+}
+
+.step-number {
+  font-weight: 700;
+  color: #0a4cff;
+  margin-right: 0.6vw;
+}

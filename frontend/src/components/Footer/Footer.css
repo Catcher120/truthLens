@@ -1,0 +1,127 @@
+.main-footer {
+  background: linear-gradient(135deg, var(--blue-600), var(--blue-700));
+  color: #d0e3ff;
+  padding: 3rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 2rem auto;
+}
+
+.footer-brand {
+  flex: 1 1 250px;
+  min-width: 220px;
+}
+
+.footer-brand h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.footer-tagline {
+  font-size: 1rem;
+  opacity: 0.8;
+  line-height: 1.4;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+  flex: 3 1 600px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #a9c8ff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+.footer-column ul li a,
+.email-copy-btn {
+  color: #d0e3ff;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  transition: color 0.2s ease;
+}
+
+.footer-column ul li a:hover,
+.email-copy-btn:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.mission-column p {
+  font-size: 1rem;
+  line-height: 1.4;
+  opacity: 0.9;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.footer-creators {
+  min-width: 280px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-weight: 600;
+  z-index: 9999;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
